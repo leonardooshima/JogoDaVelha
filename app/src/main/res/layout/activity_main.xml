@@ -27,19 +27,19 @@
             android:layout_height="match_parent"
             android:gravity="center">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn1"
+                style="@style/BtnGame"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                style="@style/BtnGame"/>
+                android:layout_height="match_parent"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 style="@style/BtnGame"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -52,19 +52,19 @@
             android:layout_height="match_parent"
             android:gravity="center">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 style="@style/BtnGame"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 style="@style/BtnGame"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -77,19 +77,19 @@
             android:layout_height="match_parent"
             android:gravity="center">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 style="@style/BtnGame"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 style="@style/BtnGame"/>
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -108,7 +108,8 @@
         android:text="@string/reiniciar"
         android:textAppearance="?android:textAppearanceLarge"
         android:textColor="@color/white"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:onClick="restart"/>
 
 
 </LinearLayout>

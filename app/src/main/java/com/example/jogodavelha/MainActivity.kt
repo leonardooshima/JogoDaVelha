@@ -79,4 +79,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun restart(view: View){
+        playerOne.clear()
+        playerTwo.clear()
+        setContentView(R.layout.activity_main)
+    }
+
 }
