@@ -1,3 +1,3 @@
 # JogoDaVelha
 
-Jogo da velha em Kotlin para praticar
+App de jogo da velha em Kotlin para praticar
